@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+//コメント
 @end
 
 @implementation ViewController
