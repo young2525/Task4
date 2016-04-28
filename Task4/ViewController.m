@@ -10,9 +10,13 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *ViewController;
+- (IBAction)CameraButton:(UIButton *)sender;
 @end
 
 @implementation ViewController
+
+- (IBAction)CameraButton:(UIButton *)sender {
+}
 //書き出し
 - (void)viewDidLoad {
     [super viewDidLoad];
