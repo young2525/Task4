@@ -17,37 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAw-m2-85n">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaQ-ei-9zd">
+                                <rect key="frame" x="263" y="285" width="75" height="30"/>
+                                <state key="normal" title="Cameraroll"/>
                                 <connections>
-                                    <action selector="CameraButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cvj-Fp-xed"/>
+                                    <action selector="CameraButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s8M-u7-wGN"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="eAw-m2-85n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iPn-AS-Ir9"/>
-                            <constraint firstItem="eAw-m2-85n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v8Y-JA-XCs"/>
+                            <constraint firstItem="JaQ-ei-9zd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="56S-0k-PiW"/>
+                            <constraint firstItem="JaQ-ei-9zd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V6R-2P-3oG"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="eAw-m2-85n"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="iPn-AS-Ir9"/>
-                                <exclude reference="v8Y-JA-XCs"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="eAw-m2-85n"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="iPn-AS-Ir9"/>
-                                <include reference="v8Y-JA-XCs"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

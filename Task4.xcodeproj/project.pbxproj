@@ -106,8 +106,8 @@
 				3A686B741CCFD62000EE9E5F /* ViewController.h */,
 				3A686B751CCFD62000EE9E5F /* ViewController.m */,
 				3A686B771CCFD62000EE9E5F /* Main.storyboard */,
-				3A686B7A1CCFD62000EE9E5F /* Assets.xcassets */,
 				3A686B7C1CCFD62000EE9E5F /* LaunchScreen.storyboard */,
+				3A686B7A1CCFD62000EE9E5F /* Assets.xcassets */,
 				3A686B7F1CCFD62000EE9E5F /* Info.plist */,
 				3A686B6E1CCFD62000EE9E5F /* Supporting Files */,
 			);
@@ -496,6 +496,7 @@
 				3A686B9A1CCFD62000EE9E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A686B9B1CCFD62000EE9E5F /* Build configuration list for PBXNativeTarget "Task4Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				3A686B9D1CCFD62000EE9E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A686B9E1CCFD62000EE9E5F /* Build configuration list for PBXNativeTarget "Task4UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				3A686BA01CCFD62000EE9E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
