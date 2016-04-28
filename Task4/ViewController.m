@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *ViewController;
-//追加した位置
+
 - (IBAction)CameraButton:(UIButton *)sender;
 @end
 
